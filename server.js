@@ -1,6 +1,3 @@
-import { Geolocation } from '@ionic-native/geolocation';
-
-
 // Set up
 var express = require('express');
 var app = express();
