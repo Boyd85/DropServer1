@@ -1,10 +1,13 @@
 {
-  "name": "groceries-server",
+  "name": "drop-server",
   "version": "0.0.1",
-  "description": "Groceries server using Mongoose",
+  "description": "Drop server using Mongoose",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.2"
   },
   "engines": {
     "node": "10.13.0"
@@ -12,7 +15,6 @@
   "devDependencies": {
     "body-parser": "1.18.3",
     "cors": "2.8.4",
-    "express": "4.16.3",
     "method-override": "2.3.10",
     "mongoose": "5.1.5",
     "morgan": "1.9.0"
